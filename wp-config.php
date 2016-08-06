@@ -18,13 +18,13 @@ define('WP_REDIS_HOST', 'wordpress.dbuclp.0001.aps1.cache.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dbade320');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'dbade320');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'bade12345');
+define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
 define('DB_HOST', 'wordpress-1.cluster-ct3aqqij2ijm.ap-south-1.rds.amazonaws.com');
