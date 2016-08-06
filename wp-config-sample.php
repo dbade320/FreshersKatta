@@ -13,19 +13,21 @@
  *
  * @package WordPress
  */
+define('FS_METHOD', 'direct');
+define('WP_REDIS_HOST', 'wordpress.dbuclp.0001.aps1.cache.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wordpress-1.cluster-ct3aqqij2ijm.ap-south-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
